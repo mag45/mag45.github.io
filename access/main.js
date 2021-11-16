@@ -134,7 +134,7 @@ swiper.on('slideChange', function () {
 		var sss = swiper.realIndex + 1;
 		$('.dit_dot:nth-child(' + sss + ')').addClass('act');
 
-		$('html').css('background', '#B3E3C3');
+		$('html').css('background', '#F5F4D5');
 		$('.content').css('background', '#F5F4D5');
 	}
 
