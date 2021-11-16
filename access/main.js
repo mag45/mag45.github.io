@@ -126,7 +126,7 @@ swiper.on('slideChange', function () {
 		$('.dit_dot:nth-child(' + sss + ')').addClass('act');
 
 		$('html').css('background', '#B3E3C3');
-		$('.content').css('background', '#B3E3B7');
+		$('.content').css('background', '#B3E3B3');
 	}
 
 	if (swiper.realIndex == 1) {
@@ -134,7 +134,7 @@ swiper.on('slideChange', function () {
 		var sss = swiper.realIndex + 1;
 		$('.dit_dot:nth-child(' + sss + ')').addClass('act');
 
-		$('html').css('background', '#DAC8D7');
+		$('html').css('background', '#B3E3C3');
 		$('.content').css('background', '#EDE3EB');
 	}
 
